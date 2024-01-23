@@ -18,7 +18,13 @@ export default function RootLayout({
 		<html lang="ja">
 			<body className={inter.className}>
 				<div className="flex items-center flex-col mt-4 font-bold text-3xl">
+					<header className="bg-blue-100 p-[1rem] w-full ">
+						<p>Header</p>
+					</header>
 					{children}
+					<footer className="bg-gray-200 p-[1rem] w-full ">
+						<p>Footer</p>
+					</footer>
 				</div>
 			</body>
 		</html>
